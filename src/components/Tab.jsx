@@ -19,8 +19,9 @@ const Tab = () => {
                 {tabData.map((tab, index) => (
                     <li
                         key = {index}
-                        className = {index === activeTab ? 'active' : ''}
                         onClick={() => handleTabClick(index)}    
+                        className = {index == activeTab ? 'active' : ''} //used for styling the tab when its active. ".tabs li.active", if its active it styles according to that
+                        
                     >
                         {tab.label}
                     </li>
