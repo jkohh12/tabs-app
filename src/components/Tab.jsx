@@ -26,7 +26,7 @@ const Tab = () => {
                     </li>
                 ))}
             </u1>
-            <div>
+            <div className = "tab-content">
                     {tabData[activeTab].content}
             </div>
         </div>

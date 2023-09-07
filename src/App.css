@@ -26,7 +26,8 @@
 .tab-content {
 
   border: 1px solid #ccc;
-  border-top: none;
+  margin-left: 40%;;
+  margin-right: 40%;;
   padding: 20px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
